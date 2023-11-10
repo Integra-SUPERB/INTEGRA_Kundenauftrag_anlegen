@@ -14,13 +14,13 @@ Find the purpose, prerequisites, and process flow of the Sales Order here: [Proc
 ## How does this API work?
 Multiple links to the official SAP documentation will help you understand the different parameters and necessary pieces of information to use the API successfully.
 
-For a quick and easy reference, we recommend starting by reviewing our empty Create Sales Order XML file [here](https://help.sap.com/docs/SAP_S4HANA_CLOUD/03c04db2a7434731b7fe21dca77440da/48ac12420a0a4d9daaefdc3de6a969f2.html?locale=en-US#create-sales-order). This file is designed to help you understand the structure and format of the request data you need to provide to use the API.
+For a quick and easy reference, we recommend starting by reviewing the example Create Sales Order XML file [here (A2A - asynchronous)](https://help.sap.com/docs/SAP_S4HANA_CLOUD/03c04db2a7434731b7fe21dca77440da/48ac12420a0a4d9daaefdc3de6a969f2.html?locale=en-US#create-sales-order) or [here (A2X - synchronous)](https://help.sap.com/docs/SAP_S4HANA_CLOUD/03c04db2a7434731b7fe21dca77440da/641bd0dc16bf406684ca2c614322c15e.html?locale=en-US). This file is designed to help you understand the structure and format of the request data you need to provide to use the API.
 
-Find the description for processing a Sales Order here: [Sales Order (A2A)](https://api.sap.com/api/OP_SALESORDERBULKREQUEST_IN/overview).
+Find the description for processing a Sales Order here: [Sales Order (A2X - synchronous)](https://api.sap.com/api/OP_API_SALES_ORDER_SRV_0001/overview), [Sales Order (A2A - asynchronous)](https://api.sap.com/api/OP_SALESORDERBULKREQUEST_IN/overview).
 
-The replication outbound is handled here: [Sales Order – Replicate (A2A)](https://api.sap.com/api/OP_CO_SDSLS_ESR_SALES_ORDER_REPL/overview).
+The replication outbound is handled here: [Sales Order – Replicate (A2A - only asynchronous available)](https://api.sap.com/api/OP_CO_SDSLS_ESR_SALES_ORDER_REPL/overview).
 
-To learn more about the success message that the API should return after successful replication, find detailed information in the document [Sales Order – Send Processing Notification](https://api.sap.com/api/OP_CO_SDSLS_ESR_SALES_ORDER_NOTIF/overview).
+To learn more about the success message that the API should return after successful replication, find detailed information in the document [Sales Order – Send Processing Notification (A2A - only asynchronous available)](https://api.sap.com/api/OP_CO_SDSLS_ESR_SALES_ORDER_NOTIF/overview).
 
 ## Contact information
 From the information provided above, you should have a high-level overview of the API's capabilities.
