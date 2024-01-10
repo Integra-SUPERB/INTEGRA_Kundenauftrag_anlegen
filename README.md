@@ -14,9 +14,9 @@ Find the purpose, prerequisites, and process flow of the Sales Order here: [Proc
 ## How does this API work?
 Multiple links to the official SAP documentation will help you understand the different parameters and necessary pieces of information to use the API successfully.
 
-For a quick and easy reference, we recommend starting by reviewing the example Create Sales Order XML file [here (A2A - asynchronous)](https://help.sap.com/docs/SAP_S4HANA_CLOUD/03c04db2a7434731b7fe21dca77440da/48ac12420a0a4d9daaefdc3de6a969f2.html?locale=en-US#create-sales-order) or [here (A2X - synchronous)](https://help.sap.com/docs/SAP_S4HANA_CLOUD/03c04db2a7434731b7fe21dca77440da/641bd0dc16bf406684ca2c614322c15e.html?locale=en-US). This file is designed to help you understand the structure and format of the request data you need to provide to use the API.
+For a quick and easy reference, we recommend starting by reviewing the example Create Sales Order XML file [here (A2A - asynchronous)](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/19d48293097f4a2589433856b034dfa5/48ac12420a0a4d9daaefdc3de6a969f2.html?locale=en-US&version=2020.001) or [here (A2X - synchronous)](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/19d48293097f4a2589433856b034dfa5/641bd0dc16bf406684ca2c614322c15e.html?locale=en-US&version=2020.001). This file is designed to help you understand the structure and format of the request data you need to provide to use the API.
 
-Find the description for processing a Sales Order here: [Sales Order (A2X - synchronous)](https://api.sap.com/api/OP_API_SALES_ORDER_SRV_0001/overview), [Sales Order (A2A - asynchronous)](https://api.sap.com/api/OP_SALESORDERBULKREQUEST_IN/overview).
+Find the description for processing a Sales Order here: [Sales Order (A2X - synchronous)](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/19d48293097f4a2589433856b034dfa5/00d244581efca007e10000000a441470.html?locale=en-US&version=2020.001), [Sales Order (A2A - asynchronous)](https://help.sap.com/docs/SAP_S4HANA_ON-PREMISE/19d48293097f4a2589433856b034dfa5/2b2fd9fb158e4629bf9106c80dcbf7ff.html?locale=en-US&version=2020.001).
 
 The replication outbound is handled here: [Sales Order – Replicate (A2A - only asynchronous available)](https://api.sap.com/api/OP_CO_SDSLS_ESR_SALES_ORDER_REPL/overview).
 
